@@ -1,15 +1,18 @@
-import './App.css'
-import { Editor } from './components/Editor'
-import { options } from './components/Config'
+import SimpleEditor from './SimpleEditor'
 
 function onChange(doc) {
-  console.log(doc)
+  console.log('app doc,onchange', doc)
 }
 
 function App() {
   return (
-    <div className="App">
-      <Editor options={options} onChange={onChange} />
+    <div
+      className="App"
+      style={{
+        border: '1px dashed',
+      }}
+    >
+      <SimpleEditor value="这是初始数据" onChange={onChange}></SimpleEditor>
     </div>
   )
 }

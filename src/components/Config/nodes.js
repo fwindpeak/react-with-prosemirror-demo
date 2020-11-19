@@ -20,7 +20,7 @@ const listNodes = {
   },
 }
 
-export default {
+const Nodes = {
   ...nodes,
   ...listNodes,
   ...tableNodes({
@@ -29,3 +29,5 @@ export default {
   }),
   // ...footnoteNodes
 }
+
+export default Nodes
