@@ -41,4 +41,4 @@ You don’t have to ever use `eject`. The curated feature set is suitable for sm
 
 ## Reference
 
-[hubgit/react-prosemirror](https://github.com/hubgit/react-prosemirrorhttps://github.com/hubgit/react-prosemirror)
+[hubgit/react-prosemirror](https://github.com/hubgit/react-prosemirror)
